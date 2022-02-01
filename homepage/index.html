@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Megan's Homepage</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container">
+                    <h1 id="logo">MEGAN MOULOS</h1>
+                    <div class="topnav">
+                        <a class="menu-item" href="index.html">home</a>
+                        <a class="menu-item" href="about.html">about</a>
+                        <a class="menu-item" href="contact.html">contact me</a>
+                        <a class="menu-item" href="resume.html">resume</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <div class="left-panel">
+                <h1 id="welcome">Hi! I'm Megan Moulos.</h1>
+                <p>I am a software engineering student and UI/UX Designer.</p>
+                <button>Contact Me</button>
+                </div>
+                <div class="right-panel">
+                <img id="hero_image" src="myportrait.png" alt="Photo of Megan">
+                </div>
+            </div>
+            <div class="second-block">
+                <h2>Explore my portfolio</h2>
+                <div class="cards">
+                    <div class="info-group">
+                        <div class="square-1"></div>
+                        <label>World of Tea</label>
+                    </div>
+                    <div class="info-group">
+                        <div class="square-2"></div>
+                        <label>Personal Page</label>
+                    </div>
+                    <div class="info-group">
+                        <div class="square-3"></div>
+                        <label>Travel Blog</label>
+                    </div>
+                    <div class="info-group">
+                        <div class="square-4"></div>
+                        <label>Hobbies</label>
+                    </div>
+                </div>
+            </div>
+            <div class="third-block">
+                <h2>Want to know more?</h2>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    How did you learn to code?
+                </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">I used a variety of online learning resources including the free CS50 course by Harvard as well as The Odin Project. </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Can you design a website for me?
+                </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">I am a qualified UI designer currently learning to code. Let's work together!</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What are your hobbies?
+                </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">I enjoy knitting, paddleboarding, and spending time with my partner Giuliano and our two dogs, Zuko and Luna.</div>
+                </div>
+            </div>
+            </div>
+            <div class="fourth-block">
+                <div class="cta-box">
+                    <div class="red-box">
+                        <div class="box-left">
+                            <p class="cta-head">Want to learn how to code?</p>
+                            <p>Check out CS50 from Harvard University!</p>
+                         </div>
+                     <button id="cta-button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+            <p>Copyright &copy; Megan Moulos, 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>
